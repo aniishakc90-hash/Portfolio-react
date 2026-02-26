@@ -16,7 +16,7 @@ export const Blog = () => {
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
+  useEffect(() => { 
     const fetchPosts = async () => {
       setLoading(true);
       try {
